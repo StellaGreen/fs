@@ -18,10 +18,10 @@ fs.writeFileSync(process.argv[3], process.argv[4])
 if(process.argv[2] === 'cp'){
     switch (process.argv.length) {
         case 2:
-            console.log(`usage echo : node nodefs.js cp 'nom du fichier a créer' 'texte a mettre dans le fichier'\n`)
+            console.log(`usage echo : node nodefs.js cp 'nom du fichier a copier' 'nom du nouveau fichier qui contiendra la copie'\n`)
             process.exit(1)
         case 3:
-            console.log(`usage echo : node nodefs.js cp 'nom du fichier a créer' 'texte a mettre dans le fichier'\n`)
+            console.log(`usage echo : node nodefs.js cp 'nom du fichier a copier' 'nom du nouveau fichier qui contiendra la copie'\n`)
             process.exit(1)
         default:
     }
