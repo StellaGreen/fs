@@ -35,7 +35,7 @@ if(process.argv[2] === 'mkdir'){
             console.log(`usage echo : node nodefs.js mkdir 'nom du fichier a créer'\n`)
             process.exit(1)
         case 3:
-            console.log(`usage echo : node nodefs.js 'nom du fichier a créer'\n`)
+            console.log(`usage echo : node nodefs.js mkdir 'nom du fichier a créer'\n`)
             process.exit(1)
         default:
     }
